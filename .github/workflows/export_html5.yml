@@ -9,6 +9,8 @@ env:
 
 jobs:
   export-html5:
+    permissions:
+      contents: write
     name: Export projects to HTML5 and deploy to GitHub Pages
     runs-on: ubuntu-20.04
     container:
